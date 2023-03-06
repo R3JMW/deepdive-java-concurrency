@@ -6,7 +6,7 @@ public class ImprovedMap<K, V> extends HashMap<K, V> {
 
     private final HashMap<K, V> map;
 
-    ImprovedMap() {
+    public ImprovedMap() {
         map = new HashMap<>();
     }
 
